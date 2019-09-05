@@ -1,6 +1,6 @@
 implicit1 = input('implicit1', 'IMPLICIT')
 implicit2 = input('implicit2', 'IMPLICIT')
-b = input("blendRatio","SCALAR",0.5, 0.0, 1.0)
+b = input("blendRatio","SCALAR",0.5, 0.0, 1.0, true, 0.05)
 
 equation1 = implicit1[1]
 bbox_min1 = implicit1[2]
