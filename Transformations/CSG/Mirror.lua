@@ -1,3 +1,5 @@
+setColor(200, 230, 135)
+
 shape  = input('shape', 'SHAPE', 0)
 x = input('X', 'BOOLEAN')
 y = input('Y', 'BOOLEAN')

@@ -1,4 +1,5 @@
-shape1 = input('shape1', 'SHAPE')
-shape2 = input('shape2', 'SHAPE')
+setColor(200, 230, 135)
 
-output('shape', 'SHAPE', union(shape1, shape2))
+shapes = inputs('shapes', 'SHAPE')
+
+output('shape', 'SHAPE', union(shapes))

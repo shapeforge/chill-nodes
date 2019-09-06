@@ -1,9 +1,11 @@
+setColor(102, 187, 106)
+
 centered = input('centered', 'BOOLEAN', false)
-size     = input('size'    , 'VEC3'   , {10.0, 10.0, 10.0}, 0.0, 100.0)
+size     = input('size'    , 'VEC3'   , {10.0, 10.0, 10.0}, 0.0, 1000.0)
 
 if centered then
-  shape = ccube(1, 1, 1)
+  shape = ccube(size)
 else
-  shape = cube(1, 1, 1)
+  shape = cube(size)
 end
-output('cube', 'SHAPE', scale(size) * shape)
+output('cube', 'SHAPE', shape)
