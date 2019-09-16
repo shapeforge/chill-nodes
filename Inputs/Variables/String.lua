@@ -1,0 +1,1 @@
+output('string', 'STRING', input('value', 'STRING', ''))

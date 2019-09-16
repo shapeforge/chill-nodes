@@ -1,0 +1,1 @@
+output('integer', 'INTEGER', input('value', 'INTEGER', 42))

@@ -1,0 +1,1 @@
+output('boolean', 'BOOLEAN', input('', 'BOOLEAN', false))
