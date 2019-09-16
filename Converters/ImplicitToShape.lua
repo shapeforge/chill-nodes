@@ -1,3 +1,5 @@
+setColor(102, 187, 106)
+
 implicit = input('implicit', 'IMPLICIT')
 
 equation = implicit[1]

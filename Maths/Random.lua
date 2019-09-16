@@ -1,3 +1,5 @@
+setColor(206, 149, 149)
+
 seed = input('seed', 'INTEGER', 0)
 
 lower_bound = input('lower bound', 'INTEGER', 0)
