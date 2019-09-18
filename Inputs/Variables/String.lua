@@ -1,3 +1,3 @@
 setColor(255, 122, 18)
 
-output('string', 'STRING', input('value', 'STRING', ''))
+output('string', 'STRING', data('value', 'STRING', ''))

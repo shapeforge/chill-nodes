@@ -1,3 +1,3 @@
 setColor(255, 122, 18)
 
-output('scalar', 'SCALAR', input('value', 'SCALAR', 13.37))
+output('scalar', 'SCALAR', data('value', 'SCALAR', 13.37))
