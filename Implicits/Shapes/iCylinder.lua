@@ -6,7 +6,7 @@ height = input('height', 'REAL', 10.0, 0.0, 1000.0)
 bbox_min = v(-radius, -radius, -height/2)
 bbox_max = v( radius,  radius,  height/2)
 
-h = "vec2("..radius..","..height..")"
+h = "vec2("..radius..","..height/2 ..")"
 
 equation = [[
 float distance]]..__currentNodeId..[[(vec3 p) {
