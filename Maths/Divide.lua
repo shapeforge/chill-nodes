@@ -1,6 +1,6 @@
 setColor(206, 149, 149)
 
-numerator   = input('Numerator'  , 'SCALAR', 0.0)
-denominator = input('Denominator', 'SCALAR', 1.0)
+numerator   = input('Numerator'  , 'REAL', 0.0)
+denominator = input('Denominator', 'REAL', 1.0)
 
-output('result', 'SCALAR', numerator / denominator)
+output('result', 'REAL', numerator / denominator)

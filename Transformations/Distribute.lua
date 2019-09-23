@@ -2,7 +2,7 @@ setColor(200, 230, 135)
 
 shape1 = input('shape1', 'SHAPE')
 shape2 = input('shape2', 'SHAPE')
-density = input('density', 'SCALAR', 0.1, 0.0, 1.0, true)
+density = input('density', 'REAL', 0.1, 0.0, 1.0, true)
 orient = input('follow normals', 'BOOLEAN', false)
 
 s = distribute(shape1, density)

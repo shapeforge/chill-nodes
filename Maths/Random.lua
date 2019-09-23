@@ -10,4 +10,4 @@ if not seed == 0 then
   math.randomseed(seed)
 end
 
-output('result', 'SCALAR', math.random(lower_bound, upper_bound))
+output('result', 'REAL', math.random(lower_bound, upper_bound))

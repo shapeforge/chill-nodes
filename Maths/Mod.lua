@@ -1,6 +1,6 @@
 setColor(206, 149, 149)
 
-a = input('a', 'SCALAR', 0.0)
-b = input('b', 'SCALAR', 0.0)
+a = input('a', 'REAL', 0.0)
+b = input('b', 'REAL', 0.0)
 
-output('result', 'SCALAR', math.mod(a, b))
+output('result', 'REAL', math.mod(a, b))

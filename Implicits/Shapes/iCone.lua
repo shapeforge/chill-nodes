@@ -1,8 +1,8 @@
 setColor(177, 123, 200)
 
-r1 = input('radius1', 'SCALAR', 5.0, 0.0, 1000.0)
-r2 = input('radius2', 'SCALAR', 0.0, 0.0, 1000.0)
-h = input('height', 'SCALAR', 10.0, 0.0, 1000.0)
+r1 = input('base radius', 'REAL', 5.0, 0.0, 1000.0)
+r2 = input('top radius', 'REAL', 0.0, 0.0, 1000.0)
+h = input('height', 'REAL', 10.0, 0.0, 1000.0)
 
 h = h/2
 

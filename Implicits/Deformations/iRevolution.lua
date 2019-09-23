@@ -6,7 +6,7 @@ equation = implicit[1]
 bbox_min = implicit[2]
 bbox_max = implicit[3]
 
-o = input('offset', 'SCALAR', 0.0, 0.0, 1000.0)
+o = input('offset', 'REAL', 0.0, 0.0, 1000.0)
 
 bbox_min = v(bbox_min.x-o,bbox_min.x-o,bbox_min.z)
 bbox_max = v(bbox_max.x+o,bbox_max.x+o,bbox_max.z)

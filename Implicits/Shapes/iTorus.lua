@@ -1,7 +1,7 @@
 setColor(177, 123, 200)
 
-inner_radius = input('inner radius', 'SCALAR', 5.0, 0.0, 1000.0)
-outer_radius = input('outer radius', 'SCALAR', 10.0, 0.0, 1000.0)
+inner_radius = input('inner radius', 'REAL', 5.0, 0.0, 1000.0)
+outer_radius = input('outer radius', 'REAL', 10.0, 0.0, 1000.0)
 
 r = outer_radius - inner_radius
 

@@ -1,6 +1,6 @@
 setColor(177, 123, 200)
 
-radius = input('radius', 'SCALAR', 5.0, 0.0, 1000.0)
+radius = input('radius', 'REAL', 5.0, 0.0, 1000.0)
 
 bbox_min = v(-radius,-radius,-radius)
 bbox_max = v( radius, radius, radius)

@@ -6,7 +6,7 @@ equation = implicit[1]
 bbox_min = implicit[2]
 bbox_max = implicit[3]
 
-r = input('radius', 'SCALAR', 0.0, 0.0, 1000.0)
+r = input('radius', 'REAL', 0.0, 0.0, 1000.0)
 
 bbox_min = bbox_min - v(r,r,r)
 bbox_max = bbox_max + v(r,r,r)
